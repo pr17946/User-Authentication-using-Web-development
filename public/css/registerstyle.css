@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(0.25turn, #1c7cb3, #e5efd8, #f69d3c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 140vh; /* Use min-height instead of height */
+  font-family: Arial, Helvetica, sans-serif;  
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background-color: tomato;
+  padding: 20px;
+    width: 360px; 
+   
+}
+.form-container label {
+    font-weight: bold;
+}  
+  .form-container input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .form-container input[type="radio"] {
+    width: 10%;
+    margin-right: 5px;
+    display: inline-block;
+    /* Add some space between the radio button and its label */
+}
+
+  .form-container button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.form-container button:hover {
+    background-color: #45a049;
+}
